@@ -4,19 +4,19 @@ Parte 1 - Escopo do Projeto <p align='center'>
 
 ### Squad nº: 38
 ```
-Nome do líder:
+Nome do líder: Thiago Vinicius dos Santos Queiroz
 
-Nome do Vice-líder:
+Nome do Vice-líder: Suyanne Pereira Oliveira de Souza
 --------------------
-Nome do integrante:
+Nome do integrante: Thaise Bispo Xavier
 
-Nome do integrante:
+Nome do integrante: Tamara Flavia de Liz ortiz
 
-Nome do integrante:
+Nome do integrante: Thatiane Ormindo Malheiros
 
-Nome do integrante:
+Nome do integrante: Rodrigo Xavier dos Santos
 
-Nome do integrante:
+Nome do integrante: Thiago Vinicius dos Santos Queiroz
 ```
 
 ##
@@ -28,27 +28,39 @@ Nome do integrante:
 - [ ]  DESAFIO 4 - DIVERSIDADE E INCLUSÃO NO MERCADO DE
 TRABALHO
 
-### 2. Considerando o desafio escolhido, qual é o pr oblema a ser resolvido e que será contemplado com o projeto final?
+> ### 2. Considerando o desafio escolhido, qual é o problema a ser resolvido e que será contemplado com o projeto final?
+
+O empreendedor que mora hoje nas comunidades poderá vender seus produtos para todo o país, pois iremos proporcionar a criação de uma loja virtual, também auxiliando com consultorias, aulas sobre negócios e empreendedorismo, e divulgação dessas lojas virtuais através do setor de marketing, em nosso site e redes sociais. 
+
+> ### 3. Qual o público-alvo? A solução poderá ser aplicada a todos, sem restrição de idade ou grau de escolaridade, por exemplo?
+
+Moradores de comunidades sem conhecimento de vendas pela internet. 
+
+> ### 4. O problema foi escolhido com base em quais dados oficiais? Como vocês identificaram que esse realmente é um problema para o público-alvo? Indique as referências usadas, justificando a sua escolha.
+
+Segundo a fonte Data Favela, hoje 76% dos moradores de comunidades do país têm, ou gostariam de ter, um negócio próprio.  Porém a falta de capital para investimento e ausência de conhecimento sobre negócios limitam essas pessoas a crescerem ou abrirem seus empreendimentos. Outro levantamento é que em cada 10 moradores de comunidades, 9 já possuem internet, assim havendo uma janela de oportunidade para criação de um e-commerce, com baixo investimento e auxílio na criação e manutenção do site.
+
+> ### 5. Como esse problema afeta o público-alvo?
+
+Informalidade, baixo investimento, pouco faturamento e sem conhecimento necessário para o mundo dos negócios. 
+
+> ### 6. Qual o cronograma das atividades?
+```
+Passo 1: Criar uma conta no Git Hub para o seu Squad.
+Passo 2: Organizar a atividade em uma pasta no Git Hub.
+Passo 3: Utilizar a ferramenta de gerenciamento (Projects/GitHub).
+Passo 4: Criar as páginas de acordo com nosso projeto.
+Passo 5: Versionamento Git
+Passo 6: Criar um modelo conceitual e lógico do banco de dados (BRmodelo)
+```
+
+> ### 7. Como será feita a distribuição das atividades entre os integrantes do squad para essa primeira entrega?
 
 
-### 3. Qual o público-alvo? A solução poderá ser aplicada a todos, sem restrição de idade ou grau de escolaridade, por exemplo?
 
+> ### 8. Qual a ferramenta de gerenciamento de projeto será usada para o monitoramento das atividades? Ex: Trello, Asana, Jira, Monday.
 
-### 4. O problema foi escolhido com base em quais dados oficiais? Como vocês identificaram que esse realmente é um problema para o público-alvo? Indique as referências usadas, justificando a sua escolha.
-
-
-### 5. Como esse problema afeta o público-alvo?
-
-
-### 6. Qual o cronograma das atividades?
-
-
-### 7. Como será feita a distribuição das atividades entre os integrantes do squad para essa primeira entrega?
-
-
-
-### 8. Qual a ferramenta de gerenciamento de projeto será usada para o monitoramento das atividades? Ex: Trello, Asana, Jira, Monday.
-
+Projects/GitHub
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
@@ -70,7 +82,7 @@ TRABALHO
 
 ### Orientações gerais para a entrega no moodle:
 
-- [ ] Crie uma conta no Git Hub para o seu Squad.
+- [x] Crie uma conta no Git Hub para o seu Squad.
 - [ ] Organize a sua atividade em uma pasta no Git Hub.
 - [ ] Cole o link do seu Git Hub no c ampo abaixo e clique em en viar.
 - [ ] Dica: não esqueça de colocar o seu link “público” para que possamos acessar a sua atividade.
