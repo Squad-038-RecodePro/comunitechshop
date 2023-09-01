@@ -1,0 +1,191 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' sans-serif;
+}
+body {
+  background: #f5f7fa;
+}
+.header-banner {
+  background: url(../imagens/Hero\ Section.svg);
+  height: 500px;
+  width: 100%;
+}
+
+/* ------------Form------------- */
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact .content {
+  min-height: 100vh;
+  padding: 50px 100px;
+  max-width: 880px;
+  text-align: center;
+}
+.contact .content h1 {
+  font-size: 35px;
+  font-weight: 500;
+  color:#212529;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color:#212529;
+}
+
+.contact input,textarea {
+  border: none;
+  border-bottom: 1px solid #212529;
+  outline: none;
+  resize: none;
+}
+/* .contactInfo .texto {
+  border: none;
+  border-bottom: 1px solid #212529;
+  outline: none;
+  resize: none;
+} */
+
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+.container .contactInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .contactInfo .text {
+  margin-left: 2px;
+  font-size: 16px;
+  color: #212529;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.contacForm {
+  width: 40%;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+.contacForm h1 {
+  font-size: 30px;
+  color: #212529;
+  font-weight: 500;
+}
+
+.contacForm h5 {
+  font-size: 15px;
+  color: #212529;
+  font-weight: 500;
+  font-family: 'Poppis'sans-serif;
+}
+
+.contacForm p {
+  font-size: 11px;
+  color: #212529;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.cards-comunitech-adequado {
+  background: #f5f5f5;
+}
+
+#logo-menu {
+  margin-right: 10px;
+}
+
+#titulo-logo{
+  font-weight:500;
+  font-size: 20px;
+}
+
+.card-marketing {
+  background: #f5f7fa;
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 20px !important;
+}
+
+.barra-demonstracao-site {
+  background: #f5f7fa;
+  width: 100%;
+  height: 210px !important;
+}
+
+/* ------------Footer------------- */
+
+.barra-footer {
+  background: #263238;
+  width: 100%;
+  height: 280px;
+}
+
+.justificar-textos{
+  text-align: justify;
+}
+
+.justificar-titulo{
+  text-align: center;
+}
+
+/*--------------Responsividade------------*/
+
+@media (max-width: 995px) {
+  .barra-footer {
+    background: #263238;
+    width: 100%;
+    height: 550px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .barra-footer {
+    background: #263238;
+    width: 100%;
+    height: 770px;
+  }
+}
+
+@media (max-width: 995px) {
+  .content{
+    padding: 50px;
+  }
+  .contact{
+    padding: 50px;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .container .contactInfo{
+    margin-bottom: 40px;
+  }
+  .container .contactInfo{
+    width: 100%;
+  }
+
+}
