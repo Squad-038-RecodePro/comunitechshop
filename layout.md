@@ -1,11 +1,11 @@
-<h1 align="center"> Layout figma< /h1>
+<h1 align="center"> Layout figma</h1>
 
-![Logo](https://img.icons8.com/flat-round/64/null/windows10-personalization.png) 
+![Logo](https://img.icons8.com/flat-round/64/null/windows10-personalization.png)  
 
 
-## 🚀 Layout figma
 
-- ✅ **[figma](https://www.figma.com/file/0D1CdSdl8QmLRAmYqoyBz9/Comunitech-Shop?type=design&node-id=1-5&mode=design)**
+
+- ✅ **[Layout figma](https://www.figma.com/file/0D1CdSdl8QmLRAmYqoyBz9/Comunitech-Shop?type=design&node-id=1-5&mode=design)**
 
 
 <p align="center">
