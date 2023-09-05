@@ -68,25 +68,25 @@ Projects/GitHub
 # Parte 2 - Desenvolvimento da Tecnologia
 
 - [x] Criar as páginas de acordo com seu projeto
-- [ ] Usando HTML, CSS e BOOTSTRAP, faça as formatações de acordo com a paleta de cores escolhida
-- [ ] A navegação entre as telas
-- [ ] Um site responsivo com pelo menos 4 páginas
-- [ ] Modelo conceitual e lógico do banco de dados (BRmodelo)
-- [ ] Versionamento Git
+- [x] Usando HTML, CSS e BOOTSTRAP, faça as formatações de acordo com a paleta de cores escolhida
+- [x] A navegação entre as telas
+- [x] Um site responsivo com pelo menos 4 páginas
+- [x] Modelo conceitual e lógico do banco de dados (BRmodelo)
+- [x] Versionamento Git
 
 ### Itens a serem disponibilizados no GitHub:
 
-- [ ] Código-fonte (HTML, CSS ou BOOTSTRAP)
-- [ ] Modelo lógico e conceitual da base de dados
-- [ ] Link da aplicação funcional ( OPCIONAL )
+- [x] Código-fonte (HTML, CSS ou BOOTSTRAP)
+- [x] Modelo lógico e conceitual da base de dados
+- [x] Link da aplicação funcional ( OPCIONAL )
 
 
 ### Orientações gerais para a entrega no moodle:
 
 - [x] Crie uma conta no Git Hub para o seu Squad.
-- [ ] Organize a sua atividade em uma pasta no Git Hub.
-- [ ] Cole o link do seu Git Hub no c ampo abaixo e clique em en viar.
-- [ ] Dica: não esqueça de colocar o seu link “público” para que possamos acessar a sua atividade.
+- [x] Organize a sua atividade em uma pasta no Git Hub.
+- [x] Cole o link do seu Git Hub no c ampo abaixo e clique em en viar.
+- [x] Dica: não esqueça de colocar o seu link “público” para que possamos acessar a sua atividade.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
