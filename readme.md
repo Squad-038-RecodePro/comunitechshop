@@ -1,3 +1,6 @@
+<p align="center">
+  <img alt="nivel de teste" src="https://github.com/Squad-038-RecodePro/comunitechshop/assets/116025593/c56ff268-5d2b-4afe-85e6-01460925ed7f" "height="1000px" width="900px">
+</p>
 
 <h1 align="center">
 Parte 1 - Escopo do Projeto <p align='center'>
