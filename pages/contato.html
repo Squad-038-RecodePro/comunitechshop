@@ -7,10 +7,13 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="/Assets/css/style.css"
+      href="../css/style-contato.css"
       media="screen"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,7 +29,7 @@
           <div class="d-flex align-items-center">
             <img
               id="logo-menu"
-              src="Assets/imagens/logo-menu.png"
+              src="../image/logo-menu.png"
               alt="Logo"
               style="max-width: 28px; max-height: 20px"
             />
@@ -49,7 +52,10 @@
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
                   >Home</a
                 >
               </li>
@@ -57,15 +63,12 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="Destinos.html"
-                  >Nossas Historias</a
+                  href="NossasHistorias.html"
+                  >Historias</a
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="Promoções.html"
+                <a class="nav-link active" aria-current="page" href="plano.html"
                   >Planos</a
                 >
               </li>
@@ -73,16 +76,13 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="Contato.html"
+                  href="contato.html"
                   >Contato</a
                 >
               </li>
-              <div
-                <button style="width: 180px; background: #4caf4f; border-radius: 0.5rem; text-align: center; color: #ffff;" type="button" class="btn btn-success button-registrar">
-                  Registrar agora &rarr;
-                </button>
-            </div>
-             
+              <button type="button" class="btn btn-success button-registrar">
+                Registrar agora &rarr;
+              </button>
             </ul>
           </div>
         </div>
@@ -90,107 +90,124 @@
     </header>
     <main>
       <section>
-        <!--  seção de banner -->
+        <!-- Seção de banner -->
         <div class="header-banner text-center p-3">
           <div class="Titulo-home">
             <h1></h1>
             <h1 style="color: #4caf4f; font-weight: 700"></h1>
           </div>
-          <!-- <p style="font-weight: bold">
-            Plano gratuito para quem está começando <br />
-            e opções para quem já vende online
-          </p> -->
+          <img src="../image/imagens/Hero Section.svg" alt="" class="img-fluid">
         </div>
       </section>
-      <section class="contact">
-          <div class="content">
-            <h1>Contate-nos</h1>
-              <p>Precisa de uma mão experiente e qualificada com projetos de TI personalizados? <br> Preencha o formulário para obter uma consulta gratuita.</p>
-          </div>
-        <div class="container">
-          <div class="contactInfo">
-           
-            <form action="#" method="post">
-                <label class="text" for="nome">Seu nome sobrenome:</label><br>
-                <input type="text" id="nome" name="nome" required><br><br>
-  
-                <label class="text" for="endereco">Endereço:</label><br>
-                <input type="text" id="endereco" name="endereco" required><br><br>
-  
-                <label class="text" for="codigo_postal">Código postal:</label><br>
-                <input type="text" id="codigo_postal" name="codigo_postal" required><br><br>
-  
-                <label class="text" for="nome_contato">Nome de contato:</label><br>
-                <input type="text" id="nome_contato" name="nome_contato"><br><br>
-  
-                <label class="text" for="telefone">Telefone de contato:</label><br>
-                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10}" required><br><br>
-  
-                <label class="text" for="email">E-mail:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-  
-                <label class="text" for="newsletter">Gostaria de aderir à nossa newsletter?</label><br>
-                <input type="checkbox" id="newsletter" name="newsletter"><br><br>
-  
-                <label class="text" for="linkedin">Linkedin:</label><br>
-                <input type="url" id="linkedin" name="linkedin"><br><br>
-  
-                <label class="text" for="mensagem">Vamos conversar sobre sua ideia:</label><br>
-                <textarea id="mensagem" name="mensagem"></textarea><br><br>
-  
-                <label class="text" for="arquivo">Carregar arquivo adicional:</label><br>
-                <input class="texto" type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx" max-size="10485760"><br><br>
-  
-                <!-- <input type="submit" value="Enviar"> -->
-                <!-- <button type="button" class="btn btn-success button-registrar" style="background: #4caf4f" swidth: 500px; >
-                  Enviar&rarr;
-                </button> -->
-                <div >
-                  <button style="width: 300px; background: #4caf4f; border-radius: 0.5rem; text-align: center; color: #ffff;" type="button" class="btn btn-outline-success">Enviar</button>
-              </div>
-            </form>
-                  <p class="text">Quero proteger meus dados</p>
-          </div>
-        </div>
-        
-          <div class="contacForm">
-            <!-- <div class="contactInfo"> -->
-              <div class="box">
-                <div class="icon"><i class="fa fa-map-o" aria-hidden="true"></i></div>
-                <div class="tex">
-                  <h1>Escritórios</h1>
-                  <h5>Rio de Janeiro</h5>
-                  <p>Rio de Janeiro - RJ, 20567-006, <br>Av. Rio Branco, <br> 13 - Centro</p>
-                </div>
-              </div>
-              <div class="box">
-                <div class="icon"></div>
-                <div class="tex">
-                  <h5>Bela Vista - São Paulo -SP </h5>
-                  <p>Av. Paulista, 87 - 8º andar</p>
-                </div>
-              </div>
-              <div class="box">
-                <div class="icon"></div>
-                <div class="tex">
-                  <h5>São Paulo </h5>
-                  <p>Avenida Marcos Penteado de Ulhôa Rodrigues, 739</p>
-                </div>
-              </div>
-              <div class="box">
-                <div class="icon"></div>
-                <div class="tex">
-                  <h5>Para consultas rápidas </h5>
-                  <!-- <label for="telefone">Telefone</label> -->
-                  <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"> <br><br>
-                   <!-- <label for="telefone">Telefone</label> -->
-                   <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-                </div>
-              </div>
-            <!-- </div> -->
-          </div>
-        </section>
 
+      <section class="contact mt-2">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Contate-nos</h1>
+                    <p>Precisa de uma mão experiente e qualificada com projetos de TI personalizados? <br> Preencha o formulário para obter uma consulta gratuita.</p>
+                    <form action="#" method="post">
+                        <div class="form-group mt-3">
+                            <label for="nome">Seu nome sobrenome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" class="form-control" id="endereco" name="endereco" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="codigo_postal">Código postal:</label>
+                            <input type="text" class="form-control" id="codigo_postal" name="codigo_postal" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="nome_contato">Nome de contato:</label>
+                            <input type="text" class="form-control" id="nome_contato" name="nome_contato">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="telefone">Telefone de contato:</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input type="checkbox" class="form-check-input text" id="newsletter" name="newsletter">
+                            <label class="form-check-label " for="newsletter">Gostaria de aderir à nossa newsletter?</label>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="linkedin">Linkedin:</label>
+                            <input type="url" class="form-control" id="linkedin" name="linkedin">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="mensagem">Vamos conversar sobre sua ideia:</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="arquivo">Carregar arquivo adicional:</label>
+                            <input type="file" class="form-control-file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx" max-size="10485760">
+                        </div>
+                        <div class="form-group mt-3">
+                            <button style="width: 100%; background: #4caf4f; border-radius: 0.5rem; text-align: center; color: #ffff;" type="button" class="btn btn-outline-success">Enviar</button>
+                        </div>
+                    </form>
+                    <p class="text">Quero proteger meus dados</p>
+                </div>
+                <div class="col-md-6 mt-2 d-flex align-items-center justify-content-center">
+                    <div class="contacForm">
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-map-o" aria-hidden="true"></i></div>
+                            <div class="tex">
+                                <h1>Escritórios</h1>
+                                <h5>Rio de Janeiro</h5>
+                                <p>Rio de Janeiro - RJ, 20567-006, <br>Av. Rio Branco, <br> 13 - Centro</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="tex">
+                                <h5>Bela Vista - São Paulo -SP </h5>
+                                <p>Av. Paulista, 87 - 8º andar</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="tex">
+                                <h5>São Paulo </h5>
+                                <p>Avenida Marcos Penteado de Ulhôa Rodrigues, 739</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon"></div>
+                            <div class="tex">
+                                <h5>Para consultas rápidas </h5>
+                                <img src="../image/icon-brasil-contato.png" alt="" style="max-width: 30px; max-height: 30px" id="icon-brasil" >+ 55 0800-356-5000</p>
+                                <!-- <label for="telefone">Telefone</label> -->
+                                <img src="../image/icon-brasil-contato.png" alt="" style="max-width: 30px; max-height: 30px" id="icon-brasil" >+ 55 0300-700-5000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+      <!--  Demonstração Loja  -->
+
+      <div class="container-fluid barra-demonstracao-site mt-5 text-center">
+        <h2 class="mt-4 pt-4">
+          Tenha a loja incrível que <br />
+          você sempre quis!
+        </h2>
+        <button
+          type="button"
+          class="btn btn-success button-registrar mt-4"
+          style="background: #4caf4f"
+        >
+          Demonstração &rarr;
+        </button>
+      </div>
+    </section>
     </main>
 
     <!-- Footer -->
@@ -207,7 +224,7 @@
                   class="card-header bg-transparent border-success fw-bold fs-4 text-light text-center d-flex align-items-center justify-content-center"
                 >
                   <img
-                    src="Assets/imagens/Logo.png"
+                    src="../image/Logo-Footer.png"
                     alt="Logo"
                     style="max-width: 28px; max-height: 20px"
                   />
@@ -220,9 +237,9 @@
                   </p>
                 </div>
                 <div class="card-footer bg-transparent border-success">
-                  <img src="/Assets/imagens/icon-insta.png" alt="" />
-                  <img src="/Assets/imagens/icon-tw.png" alt="" />
-                  <img src="/Assets/imagens/icont-youtube.png" alt="" />
+                  <img src="image/icon-insta.png" alt="" />
+                  <img src="image/icon-tw.png" alt="" />
+                  <img src="image/icont-youtube.png" alt="" />
                 </div>
               </div>
             </div>
@@ -307,5 +324,8 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

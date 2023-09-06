@@ -49,7 +49,7 @@ body {
 
 @media (max-width: 995px) {
   .barra-footer {
-    background color: #263238 !important;
+    background: #263238 !important;
     width: 100% !important;
     height: 550px !important;
   }
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 767px) {
   .barra-footer {
-    background color: #263238 !important;
+    background: #263238 !important;
     width: 100% !important;
     height: 770px !important;
   }

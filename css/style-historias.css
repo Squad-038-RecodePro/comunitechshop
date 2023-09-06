@@ -1,3 +1,13 @@
+*
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
 body {
     background: #f5f7fa;
   }
@@ -77,15 +87,6 @@ body {
     width: 100% ;
   }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-
-}
 
 .col-md-4 {
     width: 30%;
